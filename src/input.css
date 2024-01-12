@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cross span:nth-child(1){
+    transform: translateY(27px) rotate(-40deg);
+}
+.cross span:nth-child(2){
+   display: none;
+}
+.cross span:nth-child(3){
+    transform: translateY(22px) rotate(31deg);
+}
